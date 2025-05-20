@@ -1,0 +1,92 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 20px;
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.deleteEvent {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media (min-width: 600px) {
+
+  .deleteEvent {
+    margin-top: 0;
+    align-self: center;
+  }
+  .event-row {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .event-row input {
+    width: 50%;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 12px;
+  background-color: #003369;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #003369;
+}
+
+#result {
+  display: none;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #003369;
+  font-size: 1rem;
+}
