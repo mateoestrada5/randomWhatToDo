@@ -3,7 +3,7 @@ body {
   margin: 0;
   background-image: url('fondo.png');
   background-size: cover;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-top: 80px;
