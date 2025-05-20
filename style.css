@@ -91,3 +91,7 @@ button:hover {
   border-left: 5px solid #003369;
   font-size: 1rem;
 }
+
+input, button, select, textarea {
+  font-size: 16px;
+}
